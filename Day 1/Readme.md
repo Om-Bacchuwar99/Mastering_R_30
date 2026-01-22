@@ -74,7 +74,7 @@
 
 
 
-### 🖥️First Steps in R (RStudio vs. R Editor)
+### 🖥️First Steps in R (RStudio vs. R Gui)
 
 * R Console (RStudio): This is used for "interactive" programming where you type a line of code and hit Enter to see the result immediately.
 * R Editor (Script Window): This is where you write multiple lines of code to save as a program.
