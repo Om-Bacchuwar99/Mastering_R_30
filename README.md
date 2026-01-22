@@ -14,7 +14,7 @@ This repository is a comprehensive, day-by-day documentation of my journey into 
 ### 📈 Progress Tracker
 | Day | Topic | Status | Links |
 | :--- | :--- | :---: | :--- |
-| **Day 01** | Installation, Basics & Variables | ✅ | [Folder](./Day_01) |
+| **Day 01** | Installation, Basics & Variables | ✅ | [Folder](./Day%201) |
 | **Day 02** | Data Types | ⏳ | - |
 | **Day 03** | Vectors | 📅 | - |
 | **Day 04** | Vector Math & Logic | 📅 | - |
