@@ -1,4 +1,4 @@
-# **Day 01**
+# **Day 01: Installation and Basics**
 
 ### 🛈 About R Language
 
