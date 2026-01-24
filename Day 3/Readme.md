@@ -89,7 +89,7 @@ Operators are symbols that tell the compiler to perform specific mathematical or
 |\|\||||Short-Circuit OR|
 |!|Logical NOT|Unary operator that reverses the logical state|Negating a single condition|
 
-⚠️ **Warning:** `\\\\\\\&\\\\\\\&` and `||` evaluate only the first element and will throw an error if given vectors longer than length 1.
+⚠️ **Warning:** `&&` and `||` evaluate only the first element and will throw an error if given vectors longer than length 1.
 
 
 
@@ -120,4 +120,5 @@ Task to perform if TRUE
 } else {
 Task to perform if FALSE
 }
+
 
