@@ -18,9 +18,9 @@ This repository is a comprehensive, day-by-day documentation of my journey into 
 | :--- | :--- | :---: | :--- |
 | **Day 01** | Introduction, Installation & RStudio Basics | ✅ | [Folder](./Day%201) |
 | **Day 02** | Variables, Data Types & Casting  | ✅ | [Folder](./Day%202) |
-| **Day 03** | Operators & If-Else Statements (#9-#10) | ✅ | [Folder](./Day%203) |
-| **Day 04** | Switch, Next, Break & For Loops (#11-#13) | ⌛ | [Folder](./Day%204) |
-| **Day 05** | Repeat, While Loops & User Input (#14-#16) | 📅 | [Folder](./Day%205) |
+| **Day 03** | Operators & If-Else Statements  | ✅ | [Folder](./Day%203) |
+| **Day 04** | Switch, Next, Break & For Loops  | ✅ | [Folder](./Day%204) |
+| **Day 05** | Repeat, While Loops & User Input (#14-#16) | ⌛ | [Folder](./Day%205) |
 | **Day 06** | Custom & Built-In Functions (#17-#18) | 📅 | [Folder](./Day%206) |
 | **Day 07** | Vectors: Basics & Properties (#19) | 📅 | [Folder](./Day%207) |
 | **Day 08** | Lists: Multi-type Data Structures (#20) | 📅 | [Folder](./Day%208) |
