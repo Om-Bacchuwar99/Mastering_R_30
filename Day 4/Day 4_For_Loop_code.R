@@ -3,7 +3,7 @@
 # FOR LOOP :If we want to print any certain statement not only to print if we want to run any certain task or piece of code at certain decided times so then it will be executed multiple times without manual work.
 # syntax:
 #         for(any_variable in certain_range_say_for_now->1:10){
-#           print(paste("Number: ",any_variable)) ←───────────────── Paste is the function used to concat the various strings.
+#           print(paste("Number: ",any_variable)) ←───────────────── Paste is the function used to concatenate the various strings.
 #         }
 # Example is shown below
 
@@ -27,4 +27,5 @@ omd4_17 <- c("5","6")
 for(i in omd4_17){
   print(omd4_16)
 }
+
 # As the max index value of omd4_17 is 2 so then it will only print the omd4_16's whole vector only 2 times , though it has 4 elements but in the condition for loop the it is omd4_17 which has the max index 2.
