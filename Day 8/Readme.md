@@ -67,6 +67,7 @@ There are multiple ways to access elements from a list:
 List elements can be named using the `names()` function.  
 Naming improves readability and allows easier access to elements.
 
+![Naming List Elements Diagram](naming_list.png)
 
 ---
 
