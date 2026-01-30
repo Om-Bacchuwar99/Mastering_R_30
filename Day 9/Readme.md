@@ -1,20 +1,18 @@
 # Day 09: Vector Functions and Sequences
 
-
+<br><br>
 
 ## 📝 Overview
 
 Today’s learning focused on specialized functions used to generate and replicate data within vectors. We explored the versatility of the rep() function for data replication, the seq() function for creating complex regular sequences, and the logical check functions any() and all() to evaluate conditions across vector elements.
 
 
-
+<br><br>
 
 
 ## 🛠️ The Repeat Function (rep)
 
 * The rep() function replicates elements of a vector in various ways depending on the arguments provided.
-
-
 
 
 
@@ -29,14 +27,13 @@ Today’s learning focused on specialized functions used to generate and replica
 4. **length.out:** Replicates the vector until the total number of elements in the output reaches a specific count.  
 
 
+![Diagramatic Representation of Repeat Function](Repeat.drawio.png)
 
+<br><br>
 
 ## 🔢 The Sequence Function (seq)
 
 The seq() function is a more powerful alternative to the : operator for generating regular sequences of numbers.
-
-
-
 
 
 ### ⚙️ Key Arguments
@@ -51,7 +48,7 @@ The seq() function is a more powerful alternative to the : operator for generati
 
 3\. **length.out**: Instead of specifying a gap, you define how many elements you want in total. R automatically calculates the equal spacing required to fit that count between the from and to values.
 
-
+<br><br>
 
 
 
@@ -61,7 +58,7 @@ The seq() function is a more powerful alternative to the : operator for generati
 
 ### ✅ any()
 
-Returns TRUE if at least one value in the vector satisfies the given condition. Returns FALSE if none of the values satisfy it.
+Returns TRUE if at least one value in the vector satisfies the given condition. Returns FALSE if none of the values satisfy it.<br>
 
 
 
@@ -72,6 +69,7 @@ Returns TRUE if at least one value in the vector satisfies the given condition. 
 Returns TRUE only if every single value in the vector satisfies the condition. Returns FALSE if even one value fails to satisfy it.
 
 
+![Diagramatic Representation of Any and All Function](AnyandAll.drawio%20(1).png)
 
 
 
