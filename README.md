@@ -54,6 +54,7 @@ This repository is a comprehensive, day-by-day documentation of my journey into 
 To maintain a professional workflow, each day includes:
 * **`Day_XX.md`**: Detailed conceptual notes and theory.
 * **`script.R`**: Clean, commented code and practice exercises.
+* **`Readme.md`**: For the notes taken on the respective day.
 * **`data/`**: Source datasets for projects.
 
 ---
