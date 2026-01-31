@@ -34,7 +34,7 @@ You can provide meaningful names to the rows, columns, and individual matrices (
 
 **Implementation**  
 Define character vectors for row names, column names, and matrix/layer names, then pass them to the `dimnames` argument as a list.  
-
+![Diagramatic Representation of Naming of Rows and Column in Matrix](Naming.drawio.png)
 
 ## 
 
