@@ -25,8 +25,8 @@ This repository is a comprehensive, day-by-day documentation of my journey into 
 | **Day 07** | Vectors: Basics & Properties  | ✅ | [Folder](./Day%2007) |
 | **Day 08** | Lists: Multi-type Data Structures  | ✅ | [Folder](./Day%2008) |
 | **Day 09** | Vector Functions & Operations  | ✅ | [Folder](./Day%2009) |
-| **Day 10** | Arrays: Multi-dimensional Data (#22) | ⌛ | [Folder](./Day%2010) |
-| **Day 11** | Matrices: Creation and Manipulation (#23) | 📅 | [Folder](./Day%2011) |
+| **Day 10** | Arrays: Multi-dimensional Data (#22) | ✅ | [Folder](./Day%2010) |
+| **Day 11** | Matrices: Creation and Manipulation (#23) | ⌛ | [Folder](./Day%2011) |
 | **Day 12** | Data Frames: Tabular Data (#24) | 📅 | [Folder](./Day%2012) |
 | **Day 13** | Factors: Categorical Data (#25) | 📅 | [Folder](./Day%2013) |
 | **Day 14** | **Week 2 Review & Mini-Practice** | 📅 | [Folder](./Day%2014) |
