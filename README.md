@@ -16,15 +16,15 @@ This repository is a comprehensive, day-by-day documentation of my journey into 
 
 | Day | Topic (Video Reference) | Status | Links |
 | :--- | :--- | :---: | :--- |
-| **Day 01** | Introduction, Installation & RStudio Basics | ✅ | [Folder](./Day%201) |
-| **Day 02** | Variables, Data Types & Casting  | ✅ | [Folder](./Day%202) |
-| **Day 03** | Operators & If-Else Statements  | ✅ | [Folder](./Day%203) |
-| **Day 04** | Switch, Next, Break & For Loops  | ✅ | [Folder](./Day%204) |
-| **Day 05** | Repeat, While Loops & User Input  | ✅ | [Folder](./Day%205) |
-| **Day 06** | Custom & Built-In Functions  | ✅ | [Folder](./Day%206) |
-| **Day 07** | Vectors: Basics & Properties  | ✅ | [Folder](./Day%207) |
-| **Day 08** | Lists: Multi-type Data Structures  | ✅ | [Folder](./Day%208) |
-| **Day 09** | Vector Functions & Operations  | ✅ | [Folder](./Day%209) |
+| **Day 01** | Introduction, Installation & RStudio Basics | ✅ | [Folder](./Day%2001) |
+| **Day 02** | Variables, Data Types & Casting  | ✅ | [Folder](./Day%2002) |
+| **Day 03** | Operators & If-Else Statements  | ✅ | [Folder](./Day%2003) |
+| **Day 04** | Switch, Next, Break & For Loops  | ✅ | [Folder](./Day%2004) |
+| **Day 05** | Repeat, While Loops & User Input  | ✅ | [Folder](./Day%2005) |
+| **Day 06** | Custom & Built-In Functions  | ✅ | [Folder](./Day%2006) |
+| **Day 07** | Vectors: Basics & Properties  | ✅ | [Folder](./Day%2007) |
+| **Day 08** | Lists: Multi-type Data Structures  | ✅ | [Folder](./Day%2008) |
+| **Day 09** | Vector Functions & Operations  | ✅ | [Folder](./Day%2009) |
 | **Day 10** | Arrays: Multi-dimensional Data (#22) | ⌛ | [Folder](./Day%2010) |
 | **Day 11** | Matrices: Creation and Manipulation (#23) | 📅 | [Folder](./Day%2011) |
 | **Day 12** | Data Frames: Tabular Data (#24) | 📅 | [Folder](./Day%2012) |
