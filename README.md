@@ -31,8 +31,8 @@ This repository is a comprehensive, day-by-day documentation of my journey into 
 | **Day 13** | Factors: Categorical Data  | ✅ | [Folder](./Day%2013) |
 | **Day 14** | **Week 2 Review & Mini-Practice** | ✅ | [Folder](./Day%2014) |
 | **Day 15** | Importing Data: CSV Files  | ✅ | [Folder](./Day%2015) |
-| **Day 16** | Data Manipulation: Dplyr Package Intro (#27) | ⌛ | [Folder](./Day%2016) |
-| **Day 17** | Importing Data: Excel Files (#28) | 📅 | [Folder](./Day%2017) |
+| **Day 16** | Data Manipulation: Dplyr Package Intro (#27) | ✅ | [Folder](./Day%2016) |
+| **Day 17** | Importing Data: Excel Files (#28) | ⌛ | [Folder](./Day%2017) |
 | **Day 18** | Connecting R to MySQL Databases (#29) | 📅 | [Folder](./Day%2018) |
 | **Day 19** | Data Cleaning Practice (Dplyr) | 📅 | [Folder](./Day%2019) |
 | **Day 20** | **Mid-Course Project: Data Import & Cleaning** | 📅 | [Folder](./Day%2020) |
