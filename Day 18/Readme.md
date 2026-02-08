@@ -88,5 +88,5 @@ For better memory control (especially with large tables):
 You must install and load the **RMySQL** package for all database operations to work.
 
 ### **🔐 Permissions Alert**  
-If you get connection errors, ensure your MySQL user has the necessary privileges. Run this in your MySQL command line / terminal: the whole command which i executed has been attached in the same folder named 'cmd\_granted\_code.md'.
+If you get connection errors, ensure your MySQL user has the necessary privileges. Run this in your MySQL command line / terminal: the whole command which i executed has been attached in the same folder named [cmd_granted_code](./cmd_granted_code.md) .
 
