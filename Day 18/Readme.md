@@ -20,7 +20,7 @@ To bridge R and MySQL, the **RMySQL** package is required. The process involves 
 
 * **install.packages(*"RMySQL"*)** Which installs the necessary driver and connection tools.  
 * **dbConnect()** :  This is the primary function used to open a connection to the database.
-
+### 📁Check this file for the table that i have imported from MySQL  [SQL_Table_creation](./SQL_Table_creation.sql).
 
 
 **Key Parameters**
@@ -88,5 +88,6 @@ For better memory control (especially with large tables):
 You must install and load the **RMySQL** package for all database operations to work.
 
 ### **🔐 Permissions Alert**  
-If you get connection errors, ensure your MySQL user has the necessary privileges. Run this in your MySQL command line / terminal: the whole command which i executed has been attached in the same folder named [cmd_granted_code](./cmd_granted_code.md) .
+If you get connection errors, ensure your MySQL user has the necessary privileges. Run this in your MySQL command line / terminal: the whole command which i executed has been attached in the same folder named [cmd_granted_code](./cmd_granted_code.md).
+
 
