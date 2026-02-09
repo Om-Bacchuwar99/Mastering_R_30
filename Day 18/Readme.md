@@ -68,10 +68,10 @@ For better memory control (especially with large tables):
 
 ## 🧹 Maintenance Functions
 
-* **dbClearResult()** — clears the result set from memory to free resources.
-* **dbHasCompleted()** — checks whether all rows from a query have been fetched.
-* **dbReadTable(*con, "table\_name"*)** — reads an entire table directly into a data frame.
-* **dbWriteTable(*con, "new\_table\_name", dataframe*)** — writes an R data frame back to the database as a table.
+* **dbClearResult()** : It  clears the result set from memory to free resources.
+* **dbHasCompleted()** : It checks whether all rows from a query have been fetched.
+* **dbReadTable(*con, "table\_name"*)** : It reads an entire table directly into a data frame.
+* **dbWriteTable(*con, "new\_table\_name", dataframe*)** :This  writes an R data frame back to the database as a table.
 
 ## 
 
@@ -87,7 +87,11 @@ For better memory control (especially with large tables):
 ### **📦 Essential Setup**  
 You must install and load the **RMySQL** package for all database operations to work.
 
+### **𝄜 SQL Table creation script**
+I have also attached the SQL script that i have executed myself for the creation of the table within the Database of MySQL in MySQL Workbench. Script is within the same folder named [SQL_Table_creation](./SQL_Table_creation.sql).
+
 ### **🔐 Permissions Alert**  
 If you get connection errors, ensure your MySQL user has the necessary privileges. Run this in your MySQL command line / terminal: the whole command which i executed has been attached in the same folder named [cmd_granted_code](./cmd_granted_code.md).
+
 
 
