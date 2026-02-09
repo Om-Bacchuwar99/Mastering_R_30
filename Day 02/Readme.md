@@ -21,9 +21,9 @@ Variables are used to store data that can be referenced and manipulated in a pro
 #### **🏷️Naming Rules \& Conventions**
 
 * **Start Character**: A variable name must start with a letter or a dot (`.`).
-* **Underscore Restriction**: A variable name can **never** start with an underscore (`\_`).
-* **Special Symbols**: Special symbols (e.g., `\*`) are not allowed in variable names.
-* **Numbers**: A variable name cannot start with a number, though numbers can be used elsewhere in the name (e.g., `v7ar\_name` is valid, but `5var\_name` is not).
+* **Underscore Restriction**: A variable name can **never** start with an underscore (`_`).
+* **Special Symbols**: Special symbols (e.g., `*`) are not allowed in variable names.
+* **Numbers**: A variable name cannot start with a number, though numbers can be used elsewhere in the name (e.g., `v7ar_name` is valid, but `5var_name` is not).
 
 #### 
 
@@ -38,7 +38,7 @@ Variables are used to store data that can be referenced and manipulated in a pro
 #### **📤Output Functions**
 
 * **`print()`**: Used to display a single value.
-* **`cat()`**: Combines multiple values into a single print output. Use `\\n` within `cat()` to create a new line.
+* **`cat()`**: Combines multiple values into a single print output. Use `\n` within `cat()` to create a new line.
 
 
 
@@ -108,3 +108,4 @@ R allows you to convert one data type into another using the `as.` family of fun
 * Always use `<-` for assignment to follow R community standards.
 * The `L` suffix is critical for defining integers; otherwise, R defaults to numeric.
 * Converting non-numeric strings to numbers or logicals will result in `NA`.
+
