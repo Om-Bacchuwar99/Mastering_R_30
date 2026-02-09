@@ -2,7 +2,7 @@
 
 ## 📝 Overview
 
-Today’s session was a comprehensive deep dive into the **dplyr** package, applying it practically to a large-scale **Employee_Data.xlsx** dataset containing 1,000 records. The main goal was to master complex, real-world data workflows by combining multiple dplyr verbs — such as `slice()`, `rename()`, and `summarise()` along with the **Pipe Operator `(%>%)`** to build sophisticated, readable, and efficient analysis pipelines.
+Today’s session was a comprehensive deep dive into the **dplyr** package, applying it practically to a large-scale **Employee_Data.xlsx** dataset containing 1,000 records. The main goal was to master complex, real-world data workflows by combining multiple dplyr verbs such as `slice()`, `rename()`, and `summarise()` along with the **Pipe Operator `(%>%)`** to build sophisticated, readable, and efficient analysis pipelines.
 
 ## 🛠️ New dplyr Verbs and Techniques
 
