@@ -2,34 +2,33 @@
 
 ## 📝 Overview
 
-Today’s session was a comprehensive deep dive into the **dplyr** package, applying it practically to a large-scale **Employee_Data.xlsx** dataset containing 1,000 records. The main goal was to master complex, real-world data workflows by combining multiple dplyr verbs — such as `slice()`, `rename()`, and `summarise()` — with the **Pipe Operator (%>%)** to build sophisticated, readable, and efficient analysis pipelines.
+Today’s session was a comprehensive deep dive into the **dplyr** package, applying it practically to a large-scale **Employee_Data.xlsx** dataset containing 1,000 records. The main goal was to master complex, real-world data workflows by combining multiple dplyr verbs — such as `slice()`, `rename()`, and `summarise()` along with the **Pipe Operator `(%>%)`** to build sophisticated, readable, and efficient analysis pipelines.
 
 ## 🛠️ New dplyr Verbs and Techniques
 
 Building on previous days, several powerful new functions were introduced to refine how we select, rename, and summarize data.
 
-### 🔪 The slice() Family
+### 🔪 Slice() and it's variations
 
 These functions let you select rows based on their **integer position** (rather than logical conditions), making them perfect for sampling, extracting extremes, or quick previews.
 
-- **slice()** — retrieves rows by exact index positions  
+- **slice()** — retrieves rows by exact index positions.  
   Example: `slice(new_emp_data, 102, 456, 963)`  
 
-- **slice_tail()** — quickly grabs the last rows of the dataset  
+- **slice_tail()** — quickly grabs the last rows of the dataset. 
   Example: last 100 records with `slice_tail(n = 100)`  
 
-- **slice_sample()** — extracts a random sample of rows (great for testing or validation)  
+- **slice_sample()** — extracts a random sample of rows.  
   Example: `slice_sample(n = 50)`  
 
-- **slice_max() / slice_min()** — finds the top or bottom rows based on a variable  
+- **slice_max() / slice_min()** — finds the top or bottom rows based on a variable.  
   Example: Top 5 employees with highest Annual Salary using `slice_max(Annual_Salary, n = 5)`  
 
-Examples of all slice family functions applied to the employee dataset are provided in the code file in the same folder.
 
 ### 🏷️ The rename() Function
 
 **Purpose**  
-Changes column names for better readability, consistency, or standardization — without touching the underlying data.
+Changes column names for better readability, consistency, or standardization without tampering the underlying data.
 
 **Syntax**  
 `rename(dataset, New_Name = Old_Name)`
@@ -37,7 +36,6 @@ Changes column names for better readability, consistency, or standardization —
 **Example**  
 Renaming `EEID` → `Employee_ID` and `Full.Name` → `Employee_Name` for clearer analysis.
 
-Examples of renaming multiple columns are provided in the code file in the same folder.
 
 ### 📊 Aggregation with summarise()
 
@@ -70,7 +68,6 @@ emp_data %>%
   slice_max(Total_Compensation, n = 10) %>%
   View()
 
-  Examples of multi-step piped workflows (filter → mutate → arrange → slice → View) are provided in the code file in the same folder.
 ```
 ## 💡 Key Takeaways
 
@@ -80,7 +77,7 @@ Extensive practice with renaming columns, slicing top/bottom performers, calcula
 
 **slice()** family functions are much more efficient and readable than manual indexing `[c(...), ]` when working with large datasets like this 1,000-row employee file.
 
-**Piping** keeps complex operations clean, readable, and easy to debug — always think step-by-step: narrow → transform → summarize → inspect.
+**Piping** keeps complex operations clean, readable, and easy to debug. In simple words it is step-by-step: narrow → transform → summarize → inspect.
 
 >[!IMPORTANT]  
 >**📦 Essential Setup**  
