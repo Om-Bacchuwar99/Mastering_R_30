@@ -88,7 +88,7 @@ For better memory control (especially with large tables):
 You must install and load the **RMySQL** package for all database operations to work.
 
 ### **𝄜 SQL Table creation script**
-I have also attached the SQL script that i have executed myself for the creation of the table within the Database of MySQL in MySQL Workbench. Script is within the same folder named [SQL_Table_creation](./SQL_Table_creation.sql).
+Again as I have mentioned earlier i have also attached the SQL script that i have executed myself for the creation of the table within the Database of MySQL in MySQL Workbench. Script is within the same folder named [SQL_Table_creation](./SQL_Table_creation.sql).
 
 ### **🔐 Permissions Alert**  
 If you get connection errors, ensure your MySQL user has the necessary privileges. Run this in your MySQL command line / terminal: the whole command which i executed has been attached in the same folder named [cmd_granted_code](./cmd_granted_code.md).
