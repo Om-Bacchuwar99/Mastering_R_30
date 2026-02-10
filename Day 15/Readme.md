@@ -43,10 +43,10 @@ Before importing any data, R needs to know where your files are located.
   Saves a data frame back to a .csv file on your computer.  
   
 
-## IMPORTANT 
-## ⚠️ When creating CSV files manually (e.g., in Excel), always save them with UTF-8 encoding to avoid character encoding issues when reading them into R.**
-## ⚠️**Also the CSV('store.csv')  file has been given in the folder check it out!**
-## 
+>[!CAUTION] 
+>### When creating CSV files manually (e.g., in Excel), always save them with UTF-8 encoding to avoid character encoding issues when reading them into R.**
+>### **Also the CSV('store.csv')  file has been given in the folder check it out!**
+
 
 ## 🔍 Data Exploration and Inspection
 
