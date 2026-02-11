@@ -60,7 +60,7 @@ The cleaned result was exported as **cleaned_starwars_data.csv**.
 
 The full transition from the raw **starwars** dataset to a refined, analysis-ready version.
 
-**Data Integrity**:— Using `!is.na()` in `filter()` gives precise control over which rows are removed.
+**Data Integrity**: Using `!is.na()` in `filter()` gives precise control over which rows are removed.
 
 **Identifier Creation** : Mastering `row_number()` + `paste0()` is essential when raw data lacks a primary key or unique identifier.
 
