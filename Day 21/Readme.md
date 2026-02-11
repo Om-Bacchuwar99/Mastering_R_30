@@ -29,8 +29,8 @@ case_when(
 ```
 **Applications in the Project**
 
-- **Age Descriptor** — categorized characters into "Kid", "Adult", "Old", or "Older" based on birth year  
-- **Height Classifier** — grouped characters into "Tall", "Average", "Dwarf", etc. based on height  
+- **Age Descriptor**  categorized characters into "Kid", "Adult", "Old", or "Older" based on birth year  
+- **Height Classifier**  grouped characters into "Tall", "Average", "Dwarf", etc. based on height  
 
 
 
