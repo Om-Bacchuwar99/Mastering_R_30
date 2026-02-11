@@ -75,9 +75,8 @@ The final workflow showcased the full power of the pipe operator to go from raw 
 >[!IMPORTANT]  
 >### 📦 Essential Setup  
 >To run the analysis successfully, load these packages:
->- **dplyr** — for mutating, conditional logic, grouping, and summarizing  
->- **magrittr** — provides the forward pipe operator  
->- **xlsx** — (optional) if exporting summaries to Excel  
+>- **dplyr** : used for mutating, conditional logic, grouping, and summarizing.  
+>- **magrittr** : used provides the forward pipe operator. 
 
 >[!NOTE]
 >### ⚠️ Encoding Note  
