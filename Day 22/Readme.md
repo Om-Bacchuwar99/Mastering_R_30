@@ -66,7 +66,7 @@ Pie charts work best for **simple comparisons** with a small number of categorie
 >[!IMPORTANT]  
 >📦 Essential Setup  
 >To ensure all charts execute successfully, install and load this package:
->- **plotrix** — required specifically for the 3D pie chart function  
+>- **plotrix** : required specifically for the 3D pie chart function  
 
 >⚠️ Encoding Note
 >When preparing data labels or titles in external files (CSV, Excel, etc.), always save them with **UTF-8 encoding** to prevent character display issues in plot titles, legends, or labels.
