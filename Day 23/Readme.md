@@ -13,6 +13,7 @@ Bars represent data through rectangular shapes where the length (or height) of e
 ## 📊 Bar Chart Fundamentals
 
 In R, bar charts are created using the built-in `barplot()` function from the standard graphics package. It is highly versatile and supports both simple single-series charts and more complex multi-series visualizations.
+![Base Bar-Chart](./Barplot_default.png)
 
 ## 🛠️ The barplot() Function
 
@@ -27,7 +28,7 @@ Takes a vector or matrix of numeric values to determine bar heights/lengths, wit
 - Colors: It fills color for the bars.  
 - Border: It is outline color around each bar.  
 
-
+![Labeled Bar-Chart](./Chocolate_Revenue_Bar_chart.png)
 ## 🗂️ Advanced Bar Chart Types
 
 R makes it easy to visualize multi-dimensional data in a single chart by accepting a matrix as input.
@@ -35,11 +36,12 @@ R makes it easy to visualize multi-dimensional data in a single chart by accepti
 **Stacked Bar Chart**  
 Multiple variables are stacked on top of each other within a single bar.  
 Best for showing how a total is divided into subgroups.  
-
+![Stacked Bar-Chart](./Stacked_Bar_chart.png)
 
 **Grouped (Side-by-Side) Bar Chart**  
 Bars for different subgroups are placed next to each other instead of stacked.  
 Ideal for direct side-by-side comparison.  
+![Grouped Bar-Chart](./Grouped_bar_chart.png)
 
 
 ## 🎨 Customization & Legends
