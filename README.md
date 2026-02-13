@@ -38,7 +38,7 @@ This repository is a comprehensive, day-by-day documentation of my journey into 
 | **Day 20** | **Mid-Course Project: Data Import & Cleaning** | ✅ | [Folder](./Day%2020) |
 | **Day 21** | Mid-Course Project: Analysis Summary | ✅ | [Folder](./Day%2021) |
 | **Day 22** | Data Visualization: Pie Charts  | ✅ | [Folder](./Day%2022) |
-| **Day 23** | Data Visualization: Bar Charts (#31) | ✅ | [Folder](./Day%2023) |
+| **Day 23** | Data Visualization: Bar Charts  | ✅ | [Folder](./Day%2023) |
 | **Day 24** | Data Visualization: Histograms (#32) | ⌛ | [Folder](./Day%2024) |
 | **Day 25** | Data Visualization: Line Graphs (#33) | 📅 | [Folder](./Day%2025) |
 | **Day 26** | Data Visualization: Scatter Plots (#34) | 📅 | [Folder](./Day%2026) |
