@@ -13,7 +13,7 @@ Histograms are one of the most important first steps when exploring any numeric 
 ## 📊 Histogram Fundamentals
 
 In R, histograms are created using the built-in `hist()` function from the standard graphics package. The height of each bar represents the **frequency** of values falling within a specific range.
-
+![Histogram](./Histogram_default.png)
 ## 🛠️ The hist() Function
 
 Takes a numeric vector as input and automatically divides the data into bins to display the distribution.
@@ -30,7 +30,7 @@ Takes a numeric vector as input and automatically divides the data into bins to 
 ## 🔍 Key Features of Histograms
 
 **Frequency Distribution**  
-Quickly shows the shape of the data, whether it is symmetric, right-skewed, left-skewed, or has gaps/outliers.
+Quickly shows the shape of the data, whether it is symmetric, right-skewed, left-skewed, or has any outliers.
 
 **Controlling Axis Limits**  
 By default, R sets axis ranges based on the data. Manually setting limits helps with consistent comparison across multiple histograms .
@@ -40,14 +40,14 @@ The `breaks` parameter controls granularity:
 
 - Fewer breaks → wider bars → broad overview.  
 - More breaks → narrower bars → finer detail.  
-
+![Histogram with limit extending](./Histogram_with_limit_extending.png)
 
 
 ## 🎨 Customization
 
 Clarity is greatly improved with simple visual enhancements:
 
-- Fill colors — e.g., light blue, cyan, or other soft tones for readability.  
+- Fill colors :  other soft tones for readability.  
 - Clear axis labels : It is for entering the certain names for the x-axis and y-axis.  
 - Descriptive titles :It is to provide immediate context.  
 
