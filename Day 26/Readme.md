@@ -22,6 +22,7 @@ Both map one variable to the horizontal (x) axis and another to the vertical (y)
 ## 🛠️ Using the Base plot() Function
 
 The `plot()` function is straightforward for fast exploration.
+![Scatterplot](./Scatterplot_default.png)
 
 **Key Parameters**
 
@@ -29,6 +30,7 @@ The `plot()` function is straightforward for fast exploration.
 - Main title : It's whole chart title.
 - Axis labels : Descriptive text for x and y axes.
 - Axis limits : Use for focus on specific ranges.
+- ![Scatterplot_with_limits](./Scatterplot_with_limitation.png)
 
 
 **Working with Real Data: mtcars**
@@ -45,13 +47,15 @@ For professional, publication-quality graphics, the `ggplot2` package uses a **l
 - Initialize the plot and specify the data source.
 - Map variables to visual properties.
 - Add geometric layers to display the data.
-
+![Scatterplot_using_ggplot_and_geom](./Scatterplot_using_ggplot_geom.png)
 
 ## 🎨 Aesthetic Mapping
 
 One of the greatest strengths of `ggplot2` is adding extra dimensions to a 2D plot using visual properties:
 
 - Color :It differentiate points based on a third variable.
+- ![Scatterplot_with_color_using_ggplot_and_geom](./Scatterplot_geom_ggplot_colorise_usingothervariable_aes.png)
+- ![Scatterplot_of log_of variables_with_color_using_ggplot_and_geom](./Scatterplot_of_log_geom_ggplot_colorise_usingothervariable_aes.png)
 
 
 These mappings make the plot much more informative without adding extra axes.
