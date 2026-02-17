@@ -25,6 +25,10 @@ A boxplot displays five key statistical points:
 
 In R, boxplots are created using the built-in `boxplot()` function from the standard graphics package. It works with single variables or grouped data.
 
+![Boxplot](./Boxplot_default.png)
+
+
+
 **Key Parameters**
 
 - Data : It is a numeric vector or formula for grouped plots.
@@ -32,6 +36,7 @@ In R, boxplots are created using the built-in `boxplot()` function from the stan
 - Axis labels : Descriptive text for x and y axes.
 - Colors : It fills color for the box and border color.
 - Orientation : vertical (by default) otherwise horizontal.
+- ![Boxplot](./Boxplot_horizontal_colorized_box.png)
 - Notches : optional confidence intervals around the median.
 
 
@@ -39,10 +44,11 @@ In R, boxplots are created using the built-in `boxplot()` function from the stan
 
 **Grouped Boxplots**
 Use a formula (numeric variable ~ categorical variable) to compare distributions across groups.
+![Boxplot](./Boxplot_with_formulas.png)
 
 **Notches**
 Setting notches to true adds a "waist" around the median, as it suggests a statistically meaningful difference in medians.
-
+![Boxplot](./Boxplot_with_formulas_notch_differentnamed_value_colors.png)
 
 
 ## 💡 Key Takeaways
