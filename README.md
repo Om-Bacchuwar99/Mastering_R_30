@@ -43,8 +43,8 @@ This repository is a comprehensive, day-by-day documentation of my journey into 
 | **Day 25** | Data Visualization: Line Graphs  | ✅ | [Folder](./Day%2025) |
 | **Day 26** | Data Visualization: Scatter Plots  | ✅ | [Folder](./Day%2026) |
 | **Day 27** | Data Visualization: Boxplots  | ✅ | [Folder](./Day%2027) |
-| **Day 28** | Customizing Charts (Labels, Colors, Legends) | ⌛ | [Folder](./Day%2028) |
-| **Day 29** | **Final Project: EDA and Visualization Part 1** | 📅 | [Folder](./Day%2029) |
+| **Day 28** | Data Visualization: Treemaps | ✅ | [Folder](./Day%2028) |
+| **Day 29** | **Final Project** | ⌛ | [Folder](./Day%2029) |
 | **Day 30** | **Final Project: Conclusion and GitHub Polish** | 📅 | [Folder](./Day%2030) |
 
 > *Legend: ✅ Completed | ⏳ In Progress | 📅 Upcoming*
