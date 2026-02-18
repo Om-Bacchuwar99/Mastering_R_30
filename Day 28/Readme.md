@@ -13,13 +13,16 @@ Treemaps in R are best created using the `treemapify` package, which extends the
 ## 🛠️ The geom_treemap() Layer
 
 The core geometry is `geom_treemap()`, which maps data to rectangle sizes and colors.
+![Treemap](./Treemap_default.png)
 
 **Key Aesthetics**
 
 - Area : It is the numeric column that determines rectangle size.
 - Fill : It is the categorical or we can say for  grouping variable that sets rectangle color.
 - Subgroup : It is optional grouping to cluster related rectangles into larger blocks.
+-![Treemap](./Treemap_grouped_bycyl.png) 
 - Label : It is the text to display inside each rectangle.
+-![Treemap](./Treemap_labelled_each_block.png)
 
 
 ## 🛠️ Visualizing the mtcars Dataset
@@ -32,8 +35,11 @@ A basic treemap shows individual tiles sized by horsepower. Adding a subgroup ae
 **Adding Borders and Hierarchies**  
 To make different cylinder groups visually distinct, a subgroup border layer draws thick outlines around each major category *(4, 6, and 8 cylinders)*.
 
+![Treemap](./Treemap_subgrouped_border.png)
+
 **Adding Labels and Descriptions**  
 Treemaps are only useful if viewers know what each rectangle represents. Text labels *(e.g., car model names)* are overlaid inside the tiles.
+
 
 - Centered placement.
 - Automatic text scaling to fit rectangle size.
@@ -46,6 +52,7 @@ The final step adds professional polish:
 - [x] Clear titles and subtitles.
 - [x] Descriptive captions.
 - [x] Custom color scales for better aesthetics and readability.
+![Treemap](./Treemap_title_subtitle_captions_legend_postioned_bottom.png)
 
 
 
