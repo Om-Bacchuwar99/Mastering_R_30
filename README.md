@@ -45,7 +45,7 @@ This repository is a comprehensive, day-by-day documentation of my journey into 
 | **Day 27** | Data Visualization: Boxplots  | ✅ | [Folder](./Day%2027) |
 | **Day 28** | Data Visualization: Treemaps | ✅ | [Folder](./Day%2028) |
 | **Day 29** | Advance ggplot2 functions & **Prep Final Project** | ✅ | [Folder](./Day%2029) |
-| **Day 30** | **Final Project: Conclusion and GitHub Polish** | ⌛ | [Folder](./Day%2030) |
+| **Day 30** | **Final Project: Conclusion and GitHub Polish** | ✅ | [Folder](./Day%2030) |
 
 > *Legend: ✅ Completed | ⏳ In Progress | 📅 Upcoming*
 ---
