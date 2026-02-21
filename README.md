@@ -36,8 +36,10 @@ This repository is a self-documented, end-to-end journey into the R programming 
 As a crucial part of this exploratory journey i have created few technical assets to visualize the concept better.
 1. Cheatsheet: *gives the conceptual logic for multiple datatype.* 
  ![Cheatsheet](./Day%2014/Cheatsheet1.png)
+
 2. Vector Replication: *provides the mapped logic of Vector Replication.*
  ![Vector Replication](./Day%2009/Repeat.drawio.png)
+
 3. Trend Analysis: *Automated Analysed Population Growth plot of Ireland(🇮🇪) over a Decade.*
  ![Population plot](./Day%2029/population_plot.png)
 
