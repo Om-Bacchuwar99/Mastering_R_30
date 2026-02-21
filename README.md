@@ -1,7 +1,7 @@
 # 📊 Mastering R in 30 Days
 
 ### 📝 Project Overview
-This repository is a self-documented, end-to-end journey into the R programming language. In this journey I started from R fundamental to automated data pipelines. Rather than a 'challenge', this was a deep-dive onto Mastering Data Logic, Verification along with Professional Visualization. 
+This repository is a self-documented, end-to-end journey into the R programming language. In this journey I started from R fundamental to automated data pipelines. Rather than a 'challenge', this was a deep-dive into Mastering Data Logic, Verification along with Professional Visualization. 
 
 ---
 
