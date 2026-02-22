@@ -4,7 +4,7 @@
 
 ## 📝 Overview
 
-Today’s learning focused on expanding data handling capabilities by moving beyond basic CSVs to **Excel files** and introducing the powerful **dplyr** package for data manipulation. A major highlight was mastering the **Pipe Operator (%>%)**, which transforms how we write and read R code even making it more linear, intuitive, and easier to follow.
+Today’s learning focused on expanding data handling capabilities by moving beyond basic CSVs to **Excel files** and introducing the powerful **dplyr** package for data manipulation. A major highlight was mastering the **Pipe Operator `%>%`**, which transforms how we write and read R code even making it more linear, intuitive, and easier to follow.
 
 ## 
 
