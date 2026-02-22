@@ -13,7 +13,7 @@ Today’s learning focused on the practical side of R for real-world data analys
 Before importing any data, R needs to know where your files are located.
 
 1. **getwd()**  
-   Returns the current working directory path — the folder R is currently looking in for files.
+   Returns the current working directory path the folder R is currently looking in for files.
    
 2. **setwd()**  
    Changes the current working directory to the folder you specify.  
@@ -97,8 +97,8 @@ Once your data is imported into a data frame (e.g., named 'Store'), use these fu
 **subset()**  
 Filters rows based on logical conditions.
 
-* Single condition: subset(Store, City == "DUBLIN")
-* Multiple conditions: subset(Store, Dept == "Movies" \& Total\_Score > 250)
+* Single condition: subset `Store, City == "DUBLIN"`
+* Multiple conditions: subset `Store, Dept == "Movies"` & `Total_Score > 250`
 
 ### 
 
