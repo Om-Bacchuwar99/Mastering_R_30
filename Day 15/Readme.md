@@ -32,7 +32,7 @@ Before importing any data, R needs to know where your files are located.
 1. **read.csv()**  
    The most commonly used function to import comma-separated values files directly into a data frame.
 2. **read.table()**  
-   A more general and flexible function — you can manually specify the separator (`sep = ","`), whether there is a header row, etc.
+   A more general and flexible function  you can manually specify the separator (`sep = ","`), whether there is a header row, etc.
 3. **View()**  
    Opens an interactive spreadsheet-style viewer of your data frame inside RStudio.  
    
