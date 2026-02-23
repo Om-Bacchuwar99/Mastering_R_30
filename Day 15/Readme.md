@@ -44,7 +44,7 @@ Before importing any data, R needs to know where your files are located.
   
 
 >[!CAUTION] 
->#### When creating CSV files manually (e.g., in Excel), always save them with UTF-8 encoding to avoid character encoding issues when reading them into R.**
+>#### When creating CSV files manually (e.g., in Excel), always save them with UTF-8 encoding to avoid character encoding issues when reading them into R.
 >#### **Also the CSV('store.csv')  file has been given in the folder check it out!**
 
 
@@ -74,10 +74,10 @@ Once your data is imported into a data frame (e.g., named 'Store'), use these fu
 ### 🎯 Slicing and Accessing
 
 1. **Row Slicing**  
-   Store\[c(1:5), ] : first five rows  
+   `Store[c(1:5), ]` : first five rows  
    
 2. **Column Slicing**  
-   Store\[, c(1:3)] : first three columns
+   `Store[ ,c(1:3)]` : first three columns
    
 3. **Repositioning / Reordering Columns**  
    Pass a custom vector of column indices to reorder them (e.g., move column 14 between 3 and 4).  
@@ -86,7 +86,7 @@ Once your data is imported into a data frame (e.g., named 'Store'), use these fu
 
 ### ➕ Feature Engineering
 
-* **The $ Operator**  
+* **The `$` Operator**  
   Create new columns by calculating values from existing ones.  
   Taking example ,adding a total score column from multiple score columns.  
 
@@ -94,19 +94,19 @@ Once your data is imported into a data frame (e.g., named 'Store'), use these fu
 
 ### 🧪 Data Filtering (Subsetting)
 
-**subset()**  
+#### **`subset()`**  
 Filters rows based on logical conditions.
 
-* Single condition: subset `Store, City == "DUBLIN"`
-* Multiple conditions: subset `Store, Dept == "Movies"` & `Total_Score > 250`
+* Single condition: subset `Store, City == "DUBLIN"`.
+* Multiple conditions: subset `Store, Dept == "Movies"` & `Total_Score > 250`.
 
 ### 
 
 ### 🔢 Sorting and Ranking (Recall)
 
-* **sort()** : sorts a vector in ascending (default) or descending order
-* **order()** : returns the indices that would sort the vector
-* **rank()** : assigns ranking numbers to each value
+* **`sort()`** : sorts a vector in ascending (default) or descending order.
+* **`order()`** : returns the indices that would sort the vector.
+* **`rank()`** : assigns ranking numbers to each value.
 
 
 
