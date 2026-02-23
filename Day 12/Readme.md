@@ -26,7 +26,7 @@ A data frame is essentially a special type of list where every component (column
    A parameter often set to `FALSE` to prevent character strings from being automatically converted into categorical factor variables (especially important in older R versions).
    
 4. **str() Function**  
-   A very useful function that displays the internal structure of the data frame — showing column names, data types, and the first few values of each column.  
+   A very useful function that displays the internal structure of the data frame.   
    
 
 
@@ -43,9 +43,9 @@ R provides several intuitive ways to navigate and pull out information from a da
    Extracts a single column by its name (e.g., `employee.data$employee\_name`).  
    
 2. **Square Brackets \[row, column]**<br>
-   	**Specific Row** — retrieve the entire row<br>
-   	**Specific Column** — retrieve the entire column<br>
-   	**Single Value** — access one specific element at the intersection of a row and column  <br>
+   	**Specific Row** : It retrieves the entire row<br>
+   	**Specific Column** : It retrieves the entire column<br>
+   	**Single Value** : It access one specific element at the intersection of a row and column  <br>
    
 3. **Multiple Specific Values**  
    Use vectors inside the brackets to select specific rows and/or columns (e.g., select rows 2 and 4, and columns 1 and 3).  
@@ -55,7 +55,7 @@ R provides several intuitive ways to navigate and pull out information from a da
 
 ## 🔨 Modifying the Data Frame
 
-Data frames are flexible and dynamic — you can easily add or remove rows and columns.
+Data frames are flexible and dynamic :you can easily add or remove rows and columns.
 
 ### 
 
@@ -84,7 +84,7 @@ Data frames are flexible and dynamic — you can easily add or remove rows and c
 ## 📊 Data Analysis Tools
 
 **summary()**  
-A built-in function that provides a quick statistical overview of each column — showing min, max, mean, median, quartiles for numeric columns, and frequency counts for categorical ones.  
+A built-in function that provides a quick statistical overview of each column showing min, max, mean, median, quartiles for numeric columns, and frequency counts for categorical ones.  
 
 
 ## 
@@ -92,6 +92,6 @@ A built-in function that provides a quick statistical overview of each column �
 ## 💡 Key Takeaways
 
 * Detailed syntax and examples for creating, accessing, extracting, modifying, and summarizing data frames are provided directly within the source code files in the same folder.
-* Data frames are **heterogeneous** — unlike matrices, they happily allow different data types in different columns.
+* Data frames are **heterogeneous**  unlike matrices, they happily allow different data types in different columns.
 * When using square bracket indexing with multiple selections, the order of the indices determines how rows and columns are paired.
 * After adding or removing rows/columns, it’s good practice to check the structure with `str()` to confirm everything remains consistent and correctly typed.
