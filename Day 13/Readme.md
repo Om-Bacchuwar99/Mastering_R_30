@@ -18,10 +18,10 @@ Before diving into R syntax, it is important to understand the types of data fac
 
 1. **Nominal**  
    A variable with no intrinsic ordering to its categories.  
-   Example: Gender (Male 🚹 and Female 🚺) — neither category is "higher" or "lower" than the other.
+   Example: Gender (`Male 🚹` and `Female 🚺`) neither category is `higher` or `lower` than the other.
 2. **Ordinal**  
    A variable that has a clear, logical ordering.  
-   Example: Temperature (Low 📉, Medium, High 📈) — there is a specific rank or sequence to these values.
+   Example: Temperature (`Low 📉`, `Medium`, `High 📈`) there is a specific rank or sequence to these values.
 
 ## 
 
@@ -44,7 +44,7 @@ Before diving into R syntax, it is important to understand the types of data fac
 1. **x**  
    The input vector to be transformed.
 2. **levels**  
-   An input vector representing the set of unique values taken by x.
+   An input vector representing the set of unique values taken by `x`.
 3. **labels**  
    A character vector that corresponds to the names of the levels.
 4. **exclude**  
@@ -67,18 +67,18 @@ Factors support indexing similar to vectors but are strictly governed by their p
 ### 🎯 Indexing \& Access
 
 1. **Single Element**  
-   data\[x] retrieves the element at the **xth position**.
+   `data[x]` retrieves the element at the **xth position**.
 2. **Multiple Elements**  
-   data\[c(x, y)] retrieves specific **multiple elements**.
+   `data[c(x, y)]` retrieves specific **multiple elements**.
 3. **Negative Indexing**  
-   data\[-x] retrieves everything except the **xth position**.
+   `data[-x]` retrieves everything except the **xth position**.
 
 ### 
 
 ### ✏️ Modification
 
 1. **Direct Assignment**  
-   You can change an element by index: data\[x] <- "*any\_text*".
+   You can change an element by index: `data[x]` <- "*any\_text*".
 2. **Constraint**  
    You can only assign values that already exist in the predefined levels. Attempting to add a new category not present in the levels will result in an error or **<NA>**.
 
@@ -88,13 +88,13 @@ Factors support indexing similar to vectors but are strictly governed by their p
 
 The `gl()` function is a powerful tool for generating factors with a specific repetitive pattern.
 
-**Parameters for gl(n, k, labels)**
+**Parameters for `gl(n, k, labels)`**
 
-1. **n**  
+1. `n`  
    The number of different levels (labels) to be produced.
-2. **k**  
+2. `k`  
    The number of times each level should be replicated.
-3. **labels**  
+3. `labels`  
    A vector defining the names of the levels.
 
 ## 
