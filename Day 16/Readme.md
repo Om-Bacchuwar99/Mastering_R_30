@@ -10,7 +10,7 @@ Today’s learning focused on expanding data handling capabilities by moving bey
 
 ## 𝄜 Working with Excel Files
 
-* R does not natively read Excel files (.xlsx / .xls), so external packages are required. In this session, we used the **xlsx** package.
+* R does not natively read Excel files, so external packages are required. In this session, we used the **xlsx** package.
 
 
 
@@ -18,14 +18,14 @@ Today’s learning focused on expanding data handling capabilities by moving bey
 
 ### **📦 Installation \& Verification**
 
-* install.packages("xlsx") :— downloads and installs the package.
-* any(grepl("xlsx", installed.packages())) :— logical check to confirm the package is successfully installed.
+* `install.packages("xlsx")` : downloads and installs the package.
+* `any(grepl("xlsx", installed.packages()))` : logical check to confirm the package is successfully installed.
 
 
 
 ### **📖 Reading Excel Files**
 
-* read.xlsx("filename.xlsx", sheetIndex = 1) :— reads data from a specific sheet (by index or name) in an Excel workbook.
+* `read.xlsx("filename.xlsx", sheetIndex = 1)` : reads data from a specific sheet (by index or name) in an Excel workbook.
 
 
 
@@ -39,7 +39,7 @@ Today’s learning focused on expanding data handling capabilities by moving bey
 
 ## 🛠️ The dplyr Package
 
-The **dplyr** package is often called the "grammar of data manipulation." It provides a consistent set of intuitive **verbs** (functions) to handle the most common data tasks efficiently.
+The **dplyr** package is often called the "grammar of data manipulation." It provides a consistent set of intuitive **verbs**  to handle the most common data tasks efficiently.
 
 |Function|Action|
 |-|-|
@@ -55,27 +55,27 @@ The **dplyr** package is often called the "grammar of data manipulation." It pro
 ### 🎯 Filtering Logic
 
 1. **Multiple Conditions**  
-   filter(dataset, score > 80, age < 30) — applies several criteria at once (all must be true).
+   `filter(dataset, score > 80, age < 30)` applies several criteria at once (all must be true).
    
 2. **The %in% Operator**  
    Used to match values against a list:  
-   filter(test, segment %in% c("A", "C")) :- keeps rows where segment is either "A" or "C".
+   `filter(test, segment %in% c("A", "C"))` :- keeps rows where segment is either `A` or `C`.
 
 
 
 ### 
 
-### ⚓ The Pipe Operator (%>%)
+### ⚓ The Pipe Operator `%>%`
 
 1. Imported from the **magrittr** package (and loaded automatically with dplyr), the pipe operator dramatically improves code readability.
    
 2. **The Problem with nested functions**  
    Traditional code reads from the inside out and can become hard to follow:  
-   head(select(test, name, score))
+   `head(select(test, name, score))`
    
 3. **The Solution with piping**  
-   Code reads naturally from left to right — the data "flows" through each step:  
-   test %>% select(name, score) %>% head()
+   Code reads naturally from left to right , the data "flows" through each step:  
+   `test %>% select(name, score) %>% head()`
    
 4. **Piping Rule of Thumb**  
    Always start the pipe chain with the **data frame** (not a function). The output of each step automatically becomes the first argument of the next function.
