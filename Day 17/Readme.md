@@ -4,7 +4,7 @@
 
 ## 📝 Overview
 
-Today’s learning continued deepening our understanding of the **dplyr** package, with a strong focus on two essential functions for data transformation and organization: **`mutate()`** and **`group_by()`**. These tools enable the creation of new derived variables and the grouping of data for more meaningful, category based analysis.
+Today’s learning continued deepening our understanding of the **dplyr** package, with a strong focus on two essential functions for data transformation and organization: `mutate()` and `group_by()`. These tools enable the creation of new derived variables and the grouping of data for more meaningful, category based analysis.
 
 ## 
 
