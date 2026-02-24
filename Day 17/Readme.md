@@ -67,7 +67,7 @@ To run the code successfully, make sure the following packages are installed and
 
 * **xlsx** - for reading/writing Excel files
 * **dplyr** - core package for select(), filter(), mutate(), group\_by(), etc.
-* **magrittr** - provides the forward pipe operator %>%
+* **magrittr** - provides the forward pipe operator `%>%`.
 
 ### 
 
