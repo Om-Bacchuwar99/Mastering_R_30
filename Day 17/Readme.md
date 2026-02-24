@@ -17,7 +17,7 @@ The dplyr package offers a consistent set of verbs that make data wrangling intu
 ### ➕ The mutate() Function
 
 1. **Definition**  
-   mutate() adds new columns to a data frame while keeping all existing columns intact.
+   `mutate()` adds new columns to a data frame while keeping all existing columns intact.
 2. **Logic**  
    It performs **row-wise** calculations ,the new columns are usually the result of applying functions or arithmetic to one or more existing variables.
 3. **Implementation**  
@@ -27,26 +27,26 @@ The dplyr package offers a consistent set of verbs that make data wrangling intu
   
 5.  **Persistence**  
    To keep the new column permanently, assign the result back to the data frame:  
-   test <- test %>% mutate(*new\_column\_name = it's conditional expression with other variables/columns*)
+   `test <- test %>% mutate(new_column_name = it's conditional expression with other variables/columns)`
 
 ### 
 
 ### 🗂️ The group\_by() Function
 
 1. **Definition**  
-   group\_by() groups the data by one or more variables, setting the stage for group-level operations.
+   `group_by()` groups the data by one or more variables, setting the stage for group-level operations.
 2. **Logic**  
    After grouping, most dplyr verbs (especially summarise(), but also mutate(), filter(), etc.) will operate **within each group** rather than across the entire dataset.  
    The data still looks the same when viewed, but dplyr remembers the grouping structure internally.
 3. **Implementation**  
-   grouped\_test <- group\_by(*framename, name\_of\_column*)  
+   `grouped_test <- group_by(framename, name_of_column)`  
    This prepares the data so that subsequent operations (like summarizing averages or counts) are calculated separately for each unique value of name.
 
 ## 
 
 ## 🎷 Piping Integration
 
-* The **pipe operator (%>%)** truly shines when combining multiple dplyr steps into a clear, readable workflow.
+* The **pipe operator `%>%`** truly shines when combining multiple dplyr steps into a clear, readable workflow.
 * **Streamlined Example** : This chain selects only the name and age columns and immediately shows the last few rows.
 
 ## 
@@ -71,7 +71,8 @@ To run the code successfully, make sure the following packages are installed and
 
 ### 
 
-### **⚠️ Encoding Note**
 
-When creating or editing CSV or Excel files outside R , always save them with **UTF-8 encoding** to prevent character misreading or garbled text when importing into R.
+
+>[!NOTE]
+>When creating or editing CSV or Excel files outside R , always save them with **UTF-8 encoding** to prevent character misreading or garbled text when importing into R.
 
