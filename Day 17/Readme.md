@@ -54,8 +54,8 @@ The dplyr package offers a consistent set of verbs that make data wrangling intu
 ## 💡 Key Takeaways
 
 * Detailed syntax and practical examples for using mutate() to create derived columns and group\_by() to organize data for grouped analysis are provided directly within the source code files in the same folder.
-* **mutate()** is the go-to function for **feature engineering** that is creating new variables through logical, mathematical, or conditional transformations of existing ones.
-* **group\_by()** lays the groundwork for **aggregate analysis** it simply enables future calculations  to be performed separately within meaningful categories.
+* `mutate()` is the go-to function for **feature engineering** that is creating new variables through logical, mathematical, or conditional transformations of existing ones.
+* `group_by()` lays the groundwork for **aggregate analysis** it simply enables future calculations  to be performed separately within meaningful categories.
 
 
 
