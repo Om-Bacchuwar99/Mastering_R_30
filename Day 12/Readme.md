@@ -40,7 +40,7 @@ R provides several intuitive ways to navigate and pull out information from a da
 ### 🎯 Extraction Methods
 
 1. **The $ Operator**  
-   Extracts a single column by its name (e.g., `employee.data$employee\_name`).  
+   Extracts a single column by its name (e.g., `employee.data$employee_name`).  
    
 2. **Square Brackets \[row, column]**<br>
    	**Specific Row** : It retrieves the entire row<br>
@@ -73,7 +73,7 @@ Data frames are flexible and dynamic :you can easily add or remove rows and colu
 ### ➖ Deleting Data
 
 1. **Delete a Row**  
-   Use negative indexing (e.g., `employee.data\[-3, ]` removes the 3rd row).  
+   Use negative indexing (e.g., `employee.data[-3, ]` removes the 3rd row).  
    
 2. **Delete a Column**  
    Assign `NULL` to the column name (e.g., `employee.data$salary <- NULL`).  
